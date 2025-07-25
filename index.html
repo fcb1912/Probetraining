@@ -13,7 +13,7 @@
       color: #000;
     }
     form {
-      max-width: 600px;
+      max-width: 320px;
       margin: auto;
       background-color: #fff;
       border: 2px solid #cc0000;
@@ -87,14 +87,15 @@
 </head>
 <body>
 
-  <div class="logo-container">
+   <form id="probetrainingForm">
+   <div class="logo-container">
     <img src="https://www.fc-badenia-stilgen.de/s/cc_images/cache_18086476.png?t=1618320486"
          alt="FC Badenia St. Ilgen Logo">
   </div>
 
   <h1>Anmeldung zum Probetraining</h1>
 
-  <form id="probetrainingForm">
+ 
     <h2>Angaben zum Kind</h2>
     <label>Vorname:
       <input type="text" name="kind_vorname" required>
@@ -135,15 +136,15 @@
     <div class="checkbox-group">
       <label>
         <input type="checkbox" name="zustimmung_training" required>
-        Teilnahme am Probetraining wird erlaubt.
+        Ich erlaube die Teilnahme meines Kindes am Probetraining.
       </label>
       <label>
         <input type="checkbox" name="gesundheit" required>
-        Kind ist gesundheitlich in der Lage, am Sport teilzunehmen.
+        Mein Kind ist gesundheitlich in der Lage, am Probetraining teilzunehmen.
       </label>
       <label>
         <input type="checkbox" name="kommunikation" required>
-        Kontaktdaten dürfen für Vereinskommunikation genutzt werden.
+        Meine Kontaktdaten dürfen zur weiteren Kommunikation genutzt werden.
       </label>
     </div>
 
